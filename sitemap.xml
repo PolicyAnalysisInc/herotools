@@ -15,4 +15,10 @@
   <url>
     <loc>/reference/index.html</loc>
   </url>
+  <url>
+    <loc>/reference/odds_to_prob.html</loc>
+  </url>
+  <url>
+    <loc>/reference/prob_and_odds.html</loc>
+  </url>
 </urlset>
