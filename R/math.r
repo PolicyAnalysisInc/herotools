@@ -22,8 +22,8 @@ prob_to_odds <- function(p) {
   ret
 }
 
-#' Convert Odds to Probability
-#' 
+#' @name Probability and Odds
+#' @rdname prob_and_odds
 #' @export
 #'
 #' @tests
