@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![CircleCI build status](https://circleci.com/gh/PolicyAnalysisInc/herotools.svg?style=svg)](https://circleci.com/gh/PolicyAnalysisInc/herotools)
+[![Codecov test coverage](https://codecov.io/gh/PolicyAnalysisInc/herotools/branch/main/graph/badge.svg)](https://app.codecov.io/gh/PolicyAnalysisInc/herotools?branch=main)
 <!-- badges: end -->
 
 The goal of herotools is to ...
