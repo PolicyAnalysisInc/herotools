@@ -2,6 +2,7 @@
 # herotools
 
 <!-- badges: start -->
+[![CircleCI build status](https://circleci.com/gh/PolicyAnalysisInc/herotools.svg?style=svg)](https://circleci.com/gh/PolicyAnalysisInc/herotools)
 <!-- badges: end -->
 
 The goal of herotools is to ...
