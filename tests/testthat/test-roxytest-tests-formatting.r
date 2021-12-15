@@ -2,7 +2,7 @@
 
 # File R/formatting.r: @tests
 
-test_that("Function quoted_list_string() @ L7", {
+test_that("Function quoted_list_string() @ L21", {
   expect_equal(
    quoted_list_string(c('a','b','c')),
    '"a", "b", "c"'
@@ -10,7 +10,7 @@ test_that("Function quoted_list_string() @ L7", {
 })
 
 
-test_that("Function get_indefinite_article() @ L22", {
+test_that("Function get_indefinite_article() @ L51", {
   expect_equal(
    get_indefinite_article('fruit'),
    'a'
@@ -23,10 +23,26 @@ test_that("Function get_indefinite_article() @ L22", {
 })
 
 
-test_that("Function create_param_formatter() @ L36", {
+test_that("Function create_param_formatter() @ L80", {
   expect_equal(
    create_param_formatter(digits = 4)(0.1234567),
    "0.1235"
+  )
+})
+
+
+test_that("Function to_list_item_output() @ L121", {
+  expect_equal(
+   to_list_item_output(mtcars[1:2,1:3]),
+   "\n                      mpg cyl disp\n        Mazda RX4      21   6  160\n        Mazda RX4 Wag  21   6  160"
+  )
+  expect_equal(
+   to_list_item_output(mtcars[1:2,1:3], n = 2),
+   "\n                  mpg cyl disp\n    Mazda RX4      21   6  160\n    Mazda RX4 Wag  21   6  160"
+  )
+  expect_equal(
+   to_list_item_output(mtcars[1:2,1:3], skip = 1, n = 2),
+   "\n    Mazda RX4      21   6  160\n    Mazda RX4 Wag  21   6  160"
   )
 })
 

@@ -2,7 +2,7 @@
 
 # File R/factors.r: @tests
 
-test_that("Function clean_factors() @ L6", {
+test_that("Function clean_factors() @ L8", {
   expect_equal(
    clean_factors(data.frame(a = 'foo', b = 1, stringsAsFactors = TRUE)),
    data.frame(a = 'foo', b = 1, stringsAsFactors = FALSE)

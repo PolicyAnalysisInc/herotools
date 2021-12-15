@@ -4,6 +4,7 @@
 #'  list())), c('a','b')
 #' )
 #' 
+#' @export
 create_list_object <- function(class, ...) {
     structure(list(...), class = class)
 }

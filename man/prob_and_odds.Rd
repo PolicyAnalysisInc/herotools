@@ -3,9 +3,12 @@
 \name{Probability and Odds}
 \alias{Probability and Odds}
 \alias{prob_to_odds}
+\alias{odds_to_prob}
 \title{Convert Between Probability & Odds}
 \usage{
 prob_to_odds(p)
+
+odds_to_prob(odds)
 }
 \arguments{
 \item{p}{a probability to convert to odds}

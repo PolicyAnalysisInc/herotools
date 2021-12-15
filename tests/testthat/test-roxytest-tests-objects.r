@@ -2,7 +2,7 @@
 
 # File R/objects.r: @tests
 
-test_that("Function create_list_object() @ L7", {
+test_that("Function create_list_object() @ L8", {
   expect_equal(
    class(create_list_object(c('a','b'),
    list())), c('a','b')

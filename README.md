@@ -6,22 +6,13 @@
 [![Codecov test coverage](https://codecov.io/gh/PolicyAnalysisInc/herotools/branch/main/graph/badge.svg)](https://app.codecov.io/gh/PolicyAnalysisInc/herotools?branch=main)
 <!-- badges: end -->
 
-The goal of herotools is to ...
+The herotools package provides a set of utility functions for use by heromod, herosurv, and other hero-related packages.
 
 ## Installation
 
 You can install the development version of herotools like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+library(devtools)
+install_github("PolicyAnalysisInc/herotools")
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(herotools)
-## basic example code
-```
-

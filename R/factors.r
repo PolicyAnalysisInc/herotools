@@ -1,3 +1,5 @@
+#' @export
+#' 
 #' @tests
 #' expect_equal(
 #'  clean_factors(data.frame(a = 'foo', b = 1, stringsAsFactors = TRUE)),

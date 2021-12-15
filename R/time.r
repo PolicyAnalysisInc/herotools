@@ -1,3 +1,4 @@
+#' @export
 get_dpy <- function() {
   dpy <- 365
   for(i in 1:10) {
@@ -14,6 +15,7 @@ get_dpy <- function() {
   return(dpy)
 }
 
+#' @export
 time_in_days <- function(x, days_per_year) {
   switch(
     tolower(x),
