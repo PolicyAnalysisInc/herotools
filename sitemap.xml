@@ -13,9 +13,21 @@
     <loc>/index.html</loc>
   </url>
   <url>
+    <loc>/reference/create_param_formatter.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_indefinite_article.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
   </url>
   <url>
     <loc>/reference/prob_and_odds.html</loc>
+  </url>
+  <url>
+    <loc>/reference/quoted_list_string.html</loc>
+  </url>
+  <url>
+    <loc>/reference/to_list_item_output.html</loc>
   </url>
 </urlset>
