@@ -1,3 +1,10 @@
+#' Get Days Per Year
+#' 
+#' Traverses up environments until it can find days
+#' per year defined.
+#' 
+#' @return length one numeric containing days per year
+#' 
 #' @export
 get_dpy <- function() {
   dpy <- 365
@@ -15,6 +22,16 @@ get_dpy <- function() {
   return(dpy)
 }
 
+#' Caclulate Time in Days
+#' 
+#' Takes a string representing a unit of time and
+#' calculates the number of days contained per unit.
+#' 
+#' @param x Either "days", "weeks", "months", or "years".
+#' @param days_per_year the number of days in a year to be used in conversions
+#' 
+#' @return the numer of days in the unit of time
+#' 
 #' @export
 time_in_days <- function(x, days_per_year) {
   switch(

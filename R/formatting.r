@@ -103,7 +103,7 @@ create_param_formatter <- function(...) {
 #' @export 
 #' 
 #' @examples 
-#' to_list_item(mtcars)
+#' to_list_item_output(mtcars)
 #' 
 #' @tests
 #' expect_equal(

@@ -1,3 +1,11 @@
+#' Convert All Factors in Dataframe to Strings
+#' 
+#' Takes a data.frame and converts any factor column
+#' to strings.
+#' 
+#' @param x a data.frame
+#' @return a data.frame with factor columns converted to string
+#' 
 #' @export
 #' 
 #' @tests
