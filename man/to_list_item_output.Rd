@@ -21,6 +21,6 @@ Takes an object and returns a character vector representing how
 the object should be printed as a list item.
 }
 \examples{
-to_list_item(mtcars)
+to_list_item_output(mtcars)
 
 }
